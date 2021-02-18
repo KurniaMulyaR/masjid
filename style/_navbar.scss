@@ -1,0 +1,33 @@
+.navbar-masjid {
+  @include media-breakpoint-down(md) {
+    background-color: #03061f !important;
+  }
+
+  .nav-item {
+    .nav-link {
+      color: white;
+      @include media-breakpoint-up(lg) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      &.active {
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    background-color: white;
+    color: white;
+  }
+}
+.navbar-fixed-top.scrolled {
+  background-color: #03061f !important;
+  transition: background-color 200ms linear;
+}
+
+.btn-navbar {
+  background: #0c0d36 !important;
+  color: white !important;
+}

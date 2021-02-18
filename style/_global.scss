@@ -1,0 +1,40 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.page-content {
+  margin-top: 100px;
+}
+
+footer {
+  background: #03061f;
+
+  p {
+    color: white;
+  }
+}
+
+.from-control {
+  background-color: #f3f3f3;
+}
+
+.arrow {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  border-radius: 360px;
+  background-color: #159956;
+  bottom: 40px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 50px;
+  &.hover {
+    background-color: #1a356c;
+    opacity: 50px;
+  }
+}
